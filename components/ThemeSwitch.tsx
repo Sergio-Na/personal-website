@@ -26,7 +26,7 @@ const ThemeSwitch = () => {
 
     return (
 
-        <Toggle variant="outline" aria-label="Toggle italic" className='self-start m-10 hover:bg-gray-400 dark:bg-gray-800 dark:hover:bg-gray-600' onClick={handleSwitch}>
+        <Toggle variant="outline" aria-label="Toggle italic" className='self-start m-10 bg-slate-100 hover:bg-gray-400 dark:bg-gray-800 dark:hover:bg-gray-600' onClick={handleSwitch}>
             {theme === "light" ? (
                 <BsFillMoonFill size={15} className='fill-black' />
             ) : (
