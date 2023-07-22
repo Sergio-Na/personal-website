@@ -17,7 +17,7 @@ function ExperienceCard({ vals }: ExperienceCardProps) {
     const { company, startDate, endDate, description, picture, title } = vals;
 
     return (
-        <div className="flex flex-col items-center p-5 bg-white dark:bg-gray-800 rounded-lg shadow-lg w-10/12 mx-auto">
+        <div className="flex flex-col items-center p-5 bg-white dark:bg-gray-800 rounded-lg shadow-lg w-10/12 mx-auto transform hover:scale-105 transition-transform duration-200 ease-in-out">
             <div className="flex justify-center">
                 <img src={picture} alt={title} className="w-20 h-20 object-contain" />
             </div>
